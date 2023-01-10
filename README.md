@@ -44,3 +44,13 @@
    ターミナルを Ctrl-C キー→Yキー押下で終了します。
    <img src="./assets/stop-web.png"  title="終了">
    
+# Flutter
+
+### ネイティブ・その他のフレームワークによる開発者向け
+[公式のfor XXX](https://docs.flutter.dev/get-started/flutter-for/android-devs)で各ネイティブ・その他のフレームワークによる開発者向けにFlutterとの対比をわかりやすく説明してくれているので、経験者はここから入ると捗る。
+
+
+# Dartの基本文法
+[text/introduction_dart.md](text/introduction_dart.md)
+
+さらに詳しく学ぶ場合は[公式ドキュメント](https://dart.dev/guides)を参照

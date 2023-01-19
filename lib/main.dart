@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // https://api.flutter.dev/flutter/material/MaterialApp-class.html
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -59,6 +60,8 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            // TODO FizzBuzzTextウィジェットを配置する
+            // FizzBuzzText(number: _counter),
           ],
         ),
       ),

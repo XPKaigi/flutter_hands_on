@@ -30,7 +30,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 1;
+  int _counter = 0;
 
   void _incrementCounter() {
     setState(() {
@@ -61,6 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headline4,
             ),
             // TODO FizzBuzzTextウィジェットを配置する
+            // FizzBuzzText(number: _counter),
           ],
         ),
       ),

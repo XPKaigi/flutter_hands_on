@@ -9,18 +9,12 @@ void main() {
   });
 
   test('1を渡すと文字列"1"を返す', () {
-    expect(fizzbuzz.convert(1), "1");
+    // expect(fizzbuzz.convert(1), "1");
   });
 
-  test('3を渡すと文字列"Fizz"を返す', () {
-    expect(fizzbuzz.convert(3), "Fizz");
-  });
+  /// TODO '3を渡すと文字列"Fizz"を返す'
 
-  test('5を渡すと文字列"Buzz"を返す', () {
-    expect(fizzbuzz.convert(5), "Buzz");
-  });
+  /// TODO '5を渡すと文字列"Buzz"を返す'
 
-  test('15を渡すと文字列"FizzBuzz"を返す', () {
-    expect(fizzbuzz.convert(15), "FizzBuzz");
-  });
+  /// TODO '15を渡すと文字列"FizzBuzz"を返す'
 }
